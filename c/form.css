@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 50rem;
+    margin: 10rem auto;
+    padding: 0px 5rem;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+    gap: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: brown;
+}
+
+div a:hover {
+    color: blue;
+}
+
+.head-form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    color: darkgreen;
+}
+
+.list {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.student {
+    font-size: 2rem;
+}
+
+.address {
+    font-size: 2rem;
+}
+
+.contact {
+    font-size: 2rem;
+}
+
+.detail {
+    font-size: 20px;
+}
+
+#submit {
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 10rem;
+    height: 3rem;
+    color: blue;
+    background-color: gray;
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+#submit:hover {
+    color: red;
+    background-color: aqua;
+}
+
+.student > input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

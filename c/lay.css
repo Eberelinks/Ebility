@@ -1,0 +1,98 @@
+.container {
+    box-sizing:border-box;
+    box-shadow: 0px 0px 0px 30px;
+    margin: 2rem auto;
+    border: 1px solid;
+    border-radius: 40px;
+  }
+
+ .head {
+    text-decoration: none;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    gap: 50px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    margin-left: 30px;
+
+  }
+
+ .head a:hover {
+    color: forestgreen;
+    text-decoration: underline;
+  }
+
+ .head a {
+    color: black;
+    text-decoration: none;
+ }
+
+ .first-half {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+ .main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+  }
+
+  #design {
+    padding: 0px;
+    margin-top: 100px;
+    color: black;
+    font-weight: 500;
+  }
+
+  #para {
+    color: grey;
+    font-size: large;
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 200px;
+  }
+
+  #hire {
+    margin-top: 50px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+  }
+
+  .second-half {
+    color: white;
+    border-color: none;
+    box-sizing: border-box;
+  } 
+
+  #link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+  }
+
+  #link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 100px;
+  }
+
+  .foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    text-align: center;
+    gap: 50px;
+  }
+

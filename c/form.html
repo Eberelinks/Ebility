@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Registration form </title>
+        <link rel="stylesheet" href="./form.css">
+    </head>
+
+  <div class="container">
+
+    <div class="header">
+        <div>
+           <h1 class="head-form"> Career Guide </h1>
+        </div>
+
+        <div class="list">
+            <div> <a href="#">Jamb </a></div>
+            <div> <a href="#">Scholarship </a></div>
+            <div> <a href="#">Information Guide </a></div>
+            <div> <a href="#">Contact us </a></div>
+            <div> <a href="#">Privacy Policy </a></div>
+            <div> <a href="#">About us </a></div>
+            <div> <a href="#">Home </a></div>
+            <div> <a href="https://twitter.com" target="_blank"> Twitter</a></div>
+            <div> <a href="https://instagram.com" target="_blank">Instagram </a></div>
+            <div> <a href="https://facebook.com" target="_blank"> Facebook </a></div>
+        </div>
+    </div>
+
+    <div>
+        
+        <form>
+
+            <!--form section -->
+
+            <div class="student">
+                <h1 class="head-form">Student Name</h1>
+                <div>
+                  <input type="text" id="first-name" name="first-name" size="50" required>
+                  <div> First Name</div>
+                </div>
+                <div>
+                   <input type="text" id="last-name" name="last-name" size="50" required>
+                   <div> Last Name</div>
+                </div>
+                <div>
+                   <input type="text" id="surname" name="surname" size="50" required>
+                   <div> Surname</div>
+                </div>
+            </div>
+
+            <div class="address">
+                <h1 class="head-form">Address</h1>
+                <div>
+                   <input type="text" id="country" name="country" size="50" required>
+                   <div> Country</div>
+                </div>
+
+                <div>
+                   <input type="text" id="state" name="state" size="50" required>
+                   <div> State</div>
+                </div>
+
+                <div>
+                   <input type="text" id="city" name="city" size="50" required>
+                   <div> City</div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h1 class="head-form"> Contact</h1>
+                <div>
+                  <input type="tel" id="tel" name="tel" placeholder="01234567890" size="50" required>
+                  <div>Phone</div>
+                </div>
+
+                <div>
+                   <input type="email" id="email" name="email" placeholder="example@gmail.com" size="50" required>
+                   <div> Email</div>
+                </div>
+
+            </div>
+
+            <div class="detail">
+               <h1 class="head-form"> Personal Detail </h1>
+               <input type="radio" id="male" name="male">
+               <label for="male">Male</label><br>
+               <input type="radio" id="female" name="female">
+               <label for="female">Female</label><br>
+               <input type="radio" id="others" name="others">
+               <label for="others"> Others</label><br>
+            </div>
+
+            <div class="submit">
+               <input type="submit" id="submit" name="submit">
+            </div>
+            <!-- form section ends -->
+
+        </form>
+
+    </div>
+    
+</html> 

@@ -1,0 +1,87 @@
+img {
+    width: 600px;
+    height: 400px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3px;
+    margin-top: 30px;
+}
+
+.upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+#istanbul {
+    background-color: rgb(63, 1, 58);
+    color: white;
+    width: 15rem;
+    height: 15rem;
+}
+
+#cancun {
+    background-color: rgb(2, 49, 2);
+    color: white;
+    width: 10rem;
+    height: 15rem;
+    
+}
+
+#dubai {
+    background-color: rgb(102, 2, 69);
+    color: white;
+    width: 10rem;
+    height: 15rem;
+}
+
+#orlando {
+    background-color: rgb(70, 16, 16);
+    color: white;
+    width: 25rem;
+    height: 15rem;
+}
+
+#las-vegas {
+    background-color: rgb(3, 63, 45);
+    color: white;
+    /* margin-left: 10px; */
+    width: 10rem;
+    height: 15rem;
+}
+
+.right-phase {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 35rem;
+}
+
+.left-phase {
+    margin-top: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+button {
+    margin-top: 25rem;
+}

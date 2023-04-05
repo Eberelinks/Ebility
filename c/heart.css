@@ -1,0 +1,205 @@
+header .head {
+    background-color: white;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+span {
+    font-weight: 100;
+    color: gray;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    outline: auto;
+    box-shadow: 0px 0px 10px;
+    background-color: white;
+    margin: 15px;
+    padding-left: 30px;
+}
+
+.sub-head1 h1 {
+    color: black;
+}
+
+.sub-head2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.sub-head2 a {
+    color: gray;
+    text-decoration: none;
+    gap: 0px;
+}
+
+.sub-head2 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.place {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 30rem;
+    margin: 5rem auto;
+    padding: 0px 5rem;
+    gap: 0px;
+    /* text-align: center; */
+    
+}
+
+.each {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    /* background-color: chocolate; */
+    color: black;
+} 
+
+.container {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.each a:hover{
+    color: rgb(28, 66, 44);
+    /* background-color: #6b2f2f; */
+    text-decoration: none;
+
+}
+
+.each a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+.each > .award {
+    background-color: rgba(31, 104, 22, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .podcast {
+    background-color: rgba(22, 99, 104, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .black {
+    background-color: rgba(136, 138, 21, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .effect {
+    background-color: rgba(145, 9, 4, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .business {
+    background-color: rgba(37, 190, 157, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .comedy {
+    background-color: rgba(5, 30, 100, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .corona {
+    background-color: rgba(219, 24, 144, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .crime {
+    background-color: rgba(47, 11, 94, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .curious {
+    background-color: rgba(146, 114, 125, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .entertain {
+    background-color: rgba(231, 102, 102, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .fiction {
+    background-color: rgba(1, 255, 115, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each > .food {
+    background-color: rgba(132, 0, 255, 0.667);
+    border-radius: 10px;
+    text-align: center;
+    width: 12rem;
+    height: 4rem;
+
+}
+
+.each p {
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+

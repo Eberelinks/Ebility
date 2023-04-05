@@ -1,0 +1,23 @@
+.container {
+    max-width: 40rem;
+    margin: 5rem auto;
+    padding: 50px 2rem;
+    border: 1px solid;
+    max-height: 60rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+#form {
+    padding: 50px;
+
+}
+
+button {
+    width: 30rem;
+    margin: 100px;
+    background-color: blue;
+    color: black;
+}

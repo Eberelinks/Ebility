@@ -1,0 +1,123 @@
+body{
+    margin: 5px;
+    color:white;
+    background-color: gray;
+    text-align:center;
+    padding: 5px;
+    display: grid;
+    
+}
+
+.main {
+    color:rgb(17, 192, 17);
+    font-weight: 300;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: firebrick;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+    align-items: center;
+}
+
+.just {
+    color: rgb(226, 10, 28);
+    font-weight: 200;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.last {
+    color: rgb(29, 16, 209);
+    font-weight: 100;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:maroon;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+}
+
+.other {
+    height: 100px;
+    text-size-adjust:inherit;
+    font-size:medium;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.other  div  p{
+    color: rgb(60, 98, 129);
+      align-items: center;
+}
+
+
+.other div {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display:inline-flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    flex-grow: 10;
+    /* border: 2px solid red; */
+    
+}
+
+.other div img {
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid red; */
+}
+
+.just div img {
+    border: 2px solid gray;
+    height: 100px;
+    width: 3000px;
+}
+
+.last {
+min-height: 300px;
+    text-size-adjust:inherit;
+    font-size:medium;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    background-image;
+}
+
+.last div {
+    height: 100px;
+    width: 100px;
+    display:grid;
+    flex-basis: auto;
+    flex-wrap:wrap;
+    flex-grow: 10;
+    border: 2px solid red;
+}
+
+.last div h3 {
+    align-items: center;
+    background-image: url(../longhouse.jpg);
+}
+
+.last div p {
+    color: aqua;
+    align-items: center;
+    background-image: url(../lighthouse.jpg);
+}

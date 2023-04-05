@@ -1,0 +1,31 @@
+body {
+    background-image:linear-gradient(to bottom),
+    url("beautiful.jpg");
+}
+
+header {
+    color: red;
+    text-align: center;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    margin-top:  50px;
+    height:auto;
+    width: auto;
+}
+
+header > p {
+    color: aqua;
+}
+
+footer {
+    text-align: center;
+    color: sienna;
+    margin-top: 20px;
+    padding-top: 200px;
+}
+
+section {
+
+    padding-top: 20px;
+}

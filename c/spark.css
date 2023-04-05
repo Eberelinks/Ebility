@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: gray; */
+    /* border-radius: 10px; */
+}
+
+#para1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15rem;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#middle {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.mid1 {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.mid1 p {
+    margin-top: 50px;
+}
+
+.mid2 {
+    margin-left: 30px;
+}
+
+.mid3 {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+button {
+    margin-top: 70px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(12, 12, 199);
+    color: white;
+}
+
+img {
+    border-radius: 20px;
+    outline: 2px solid rgb(119, 4, 185);
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    padding: 90px;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+#para1  a {
+    color: white;
+    text-decoration: none;
+}
+
+#para1 a:hover {
+    color: rgb(1, 17, 165);
+}

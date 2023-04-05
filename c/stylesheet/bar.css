@@ -1,0 +1,13 @@
+* {
+   background-color: whitesmoke;
+}
+
+#head {
+   font-size: medium;
+   position: sticky;
+}
+
+#openacc {
+   text-align: center;
+   background-color:aliceblue;
+}

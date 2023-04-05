@@ -1,0 +1,89 @@
+.head {
+    /* ch unit only after the number of characters that is the width only */
+    /* max-height: 70ch;
+    max-width: 20ch; */
+    /* background-color: blue; */
+    /* font-size: larger; */
+    /* box-sizing:content-box; */
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    display: grid;
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+}
+
+main div {
+    box-sizing: border-box;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px;
+    background-color:deeppink;
+    color: black;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 2rem;
+}
+
+
+
+.container { 
+
+    font-size: xx-large;
+    text-transform: capitalize;
+    /* box-sizing:content-box; */
+    /* border: 1px solid red; */
+    /* padding: 1rem;
+    margin: 1rem ;
+    margin-top: 5px; */
+    /* margin-right: 400px; */
+    /* transform: rotate(90deg); */
+    /* padding: 10%;
+    border-style:dashed; */
+}
+
+div a {
+    color: crimson;
+    gap: 10rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 50px;
+    display: grid;
+}
+
+div a:hover {
+    color: brown;
+    background-color: gray;
+    margin-left: 510px;
+    margin-right: 510px;
+    /* background-color: aqua; */
+    /* display:flex;
+    flex-direction: row;
+    border: 1px solid gray; */
+    /* padding:1px; */
+    /* max-width: 20ch; */
+    /* flex-wrap: wrap; */
+    /* align-items: center;
+    justify-content: space-between;
+    gap: 10px; */
+}
+
+div img {
+    width: 500px;
+    height: 500px;
+    outline: 3px solid blue;
+    border-radius: 4px;
+    /* margin-top: 5px; */
+}
+
+div {
+    /* display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 50px;
+} */
